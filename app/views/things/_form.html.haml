@@ -7,7 +7,8 @@
           %li= msg
 
   .field
-    = f.label :name
+    = f.label :name do
+      THIS SHOULD BE THE LABEL
     = f.text_field :name
   .actions
     = f.submit 'Save'
